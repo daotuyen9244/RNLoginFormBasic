@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import {StyleSheet, View} from 'react-native';
-
+import { Animated} from 'react-native';
 //ThirdParty
 import CustomSplashScreen from 'react-native-splash-screen';
 import AsyncStorage from '@react-native-community/async-storage';
@@ -66,7 +66,7 @@ function LoadingScreen() {
     console.log('loginStatus', loginStatus);
 
     async function getAsyncData() {
-      //Get User data
+      ///Get User data
       let data = await AsyncStorage.getItem('data');
 
       console.log(data);

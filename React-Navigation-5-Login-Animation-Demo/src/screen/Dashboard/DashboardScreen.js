@@ -9,7 +9,7 @@
 import React, {useEffect} from 'react';
 import {SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar, TouchableOpacity} from 'react-native';
 import {Header, Colors, DebugInstructions, ReloadInstructions} from 'react-native/Libraries/NewAppScreen';
-
+import { Animated} from 'react-native';
 //ThirdParty
 import SplashScreen from 'react-native-splash-screen';
 import AsyncStorage from '@react-native-community/async-storage';

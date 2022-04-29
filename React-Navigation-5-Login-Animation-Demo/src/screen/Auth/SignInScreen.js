@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, View, Text, TouchableOpacity, SafeAreaView, Image} from 'react-native';
-
+import { Animated} from 'react-native';
 //ThirdParty
 import AsyncStorage from '@react-native-community/async-storage';
 import {TextField} from 'react-native-material-textfield';

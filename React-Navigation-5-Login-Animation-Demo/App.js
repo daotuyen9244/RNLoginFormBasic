@@ -1,6 +1,5 @@
 import React from 'react';
-import {View, Text, TextInput, Button, StatusBar} from 'react-native';
-
+import {View, Text, TextInput, Button, StatusBar,Animated} from 'react-native';
 import {Provider} from 'react-redux';
 import {store} from './src/store/index';
 
